@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<head>
+    <title>CS:GO RE:ONLINE</title>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <link rel="stylesheet" type="text/css" href="desk.css"/>
+    <link rel="icon" type="image/x-icon" href="favicon.png"/>
+
+    <link rel="preload" as="image" href="images/char1.png"/>
+    <link rel="preload" as="image" href="images/char2.png"/>
+    <link rel="preload" as="image" href="images/char3.png"/>
+    <link rel="preload" as="image" href="images/char4.png"/>
+</head>
+<body>
+    <button id="buttonAnimationsOn" class="menuButton buttonAnimations">ANIMATIONS ON</button>
+    <button id="buttonAnimationsOff" class="menuButton buttonAnimations">ANIMATIONS OFF</button>
+
+    <article id="menuNews" class="menu">
+            <section id="newsHeader" class="newsSection">
+                <div class="newsTitle">CS:RO Update News</div>
+                <p class="newsText">
+                This is where you can read about news and updates.
+                </p>
+            </section>
+
+            <section id="newsPost2" class="newsSection">
+                <div class="newsTitle">Unified PKG. CS:RO v1.1.2 PS3</div>
+                <p class="newsText">
+                Now we have all the necesary patches needed for the mod working in a single PKG file, without the external parch installation app that we had before.<br><br>This is a great opportunity to ofrering a more simplified installation process, getting some errors and misunderstandings our of the way. Along with an updated list of server buttons under the "Play" submenu.
+                <br><br><a href="https://drive.google.com/file/d/1UAxd9FjWMnk8XlT17KiRh0nZ6l4KrdwC/view?usp=sharing" target="_blank">Download the new patch here.</a>
+                <br><br> tomatoTe - 09/May/2026.
+                </p>
+            </section>
+            <section id="newsPost1" class="newsSection">
+                <div class="newsTitle">Menu Buttons Added! CS:RO v1.1.1 PS3</div>
+                <p class="newsText">
+                No more writting down the IP adresses manually with a painful controller.<br><br>This new buttons offer a quick process for connecting to the South America and USA servers, replacing the old ones under the "Play" submenu, that required a Steam conection to work.
+                <br><br> tomatoTe - 09/May/2026.
+                </p>
+            </section>
+    </article>
+
+    <article id="main">
+
+        <section id="background">
+            <div id="backgroundSolid" class="backgroundImage"></div>
+            <img id="backgroundLogo" class="backgroundImage" src="images/backgroundLogo.png">
+            <img id="backgroundGlow" class="backgroundImage" src="images/backgroundGlow.png">
+            <div id="backgroundSmoke_1" class="backgroundImage backgroundSmoke"></div>
+            <div id="backgroundSmoke_2" class="backgroundImage backgroundSmoke"></div>
+            <div id="backgroundDust_1" class="backgroundImage backgroundDust"></div>
+            <div id="backgroundDust_2" class="backgroundImage backgroundDust"></div>
+            <img id="backgroundShadow_1" class="backgroundImage backgroundShadow" src="images/backgroundShadow_1.png">
+            <img id="backgroundShadow_2" class="backgroundImage backgroundShadow" src="images/backgroundShadow_2.png">
+        </section>
+
+        <section id="characters">
+            <div id="character1" class="character openCharacter1"></div>
+            <div id="character2" class="character"></div>
+        </section>
+
+    <div id="startTitle" class="menu">
+        <!--<img id="titleImage" class="backgroundImage" src="images/backgroundSmoke.jpg">-->
+    </div>
+
+        <article id="menu">
+
+            <sectiom id="menuStart" class="menu">
+                <button id="buttonInstall" class="menuButton">DOWNLOAD</button>
+                <button id="buttonServers" class="menuButton">SERVER LIST</button>
+                <button id="buttonMaps" class="menuButton">CUSTOM MAPS</button>
+            </sectiom>
+
+            <section id="menuPlatform" class="menu">
+                <button id="buttonPS3" class="menuButton">PLAYSTATION 3</button>
+                <button id="buttonPc" class="menuButton">PC</button>
+                <button id="buttonBackPlatform" class="menuButton menuBack">BACK</button>
+            </section>
+
+            <section id="menuServers" class="menu">
+                <button id="buttonBackServers">x</button>
+                <div id="consoleDrag">Servers</div>
+                <div id="serversMargin" class="margin">
+                    <div id="serversList" class="list">
+                    <div id="columnServers" class="column">Servers
+                        <div id="textServers_1" class="textColumn"> CSGO RE:ONLINE</div>
+                        <div id="textServers_2" class="textColumn"> CSGO EUROPE</div>
+                    </div>
+                    <div id="columnSelection">
+                        <div id="selection_1" class="selection"></div>
+                        <div id="selection_2" class="selection"></div>
+                    </div> 
+                    <div id="columnIP" class="column">IP Address
+                        <div id="textIP_1" class="textColumn"> michael-lifetime.gl.at.ply.gg:36737</div>
+                        <div id="textIP_2" class="textColumn"> 51.75.73.58</div>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+        </article>
+
+        <article id="menuExplain" class="menu">
+
+            <section id="explainMargin" class="menu">
+                <section id="PS3Inside" class="menu explainInside">
+                    <h2 class="insideTitle">INSTALATION GUIDE</h2>
+                    <div id="PS3Buttons" class="menuInside">
+                        <button id="buttonDownload" class="menuButton insideButton">Download and Install</button>
+                        <button id="buttonDownload" class="menuButton insideButton">Connect to Server</button>
+                        <button id="buttonDownload" class="menuButton insideButton">Connect to Server</button>
+                    </div>
+                    <div id="PS3Details" class="menuInside">
+                        <button id="buttonDownloadPS3" class="downloadButton">DOWNLOAD</button>
+                        <h2 class="insideText">CLASSIC</h2>
+                        <p class="insideText">info here, info here, info here, info here, info here, info here, info here, info here, info here, </p>
+                        <br>
+                        <p class="insideText">info here, info here, info here, info here, info here, info here, info here, info here, info here, </p>
+                        <p class="insideText">info here, info here, info here, info here, info here, info here, info here, info here, info here, </p>
+                        <br>
+                        <p class="insideText">info here, info here, info here, info here, info here, info here, info here, info here, info here, </p>
+                    </div>
+                    <button id="buttonBackPS3" class="buttonBackInside">BACK</button>
+                </section>
+            </section>
+            
+        </article>
+
+        <button id="buttonConsoleReset">RESET CONSOLE</button>
+
+    </article>
+
+    <article id="desk">
+    
+        <h2>TITLE HERE</h2>
+        <p>Info here, Info here, Info here, Info here, Info here, Info here, Info here, Info here, Info here, Info here, Info here, Info here, Info here, Info here, Info here, </p>
+    
+    </article>
+    
+    <script src="index.js" defer></script>
+    <script src="consoleDrag.js" defer></script>
+    <!--<script src="backgroundAnimation.js" defer></script>-->
+</body>
