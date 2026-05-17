@@ -57,10 +57,14 @@ body {
     font-size: 28px;
 }
 .windowButton {
+    display: block;
     width: 100%; height: 40px;
+    background-color: green;
+    font-size: 20px;
+    text-align: center;
 }
 
-.windowUpdate {
+.update {
     width: 900px;
     margin-block-end: 150px;
 }
